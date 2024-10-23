@@ -1,8 +1,16 @@
 package org.example;
 
+import java.util.Queue;
+
 public class MyCircularQueue {
     public MyCircularQueue(int k) {
-        throw new UnsupportedOperationException("Not implemented yet");
+       Queue myCircularQueue = new Queue<E>() {
+        
+       }
+        
+       };
+       
+        //throw new UnsupportedOperationException("Not implemented yet");
     }
 
     public boolean enQueue(int value) {
@@ -10,6 +18,7 @@ public class MyCircularQueue {
     }
 
     public boolean deQueue() {
+    
         throw new UnsupportedOperationException("Not implemented yet");
     }
 
@@ -22,6 +31,7 @@ public class MyCircularQueue {
     }
 
     public boolean isEmpty() {
+        
         throw new UnsupportedOperationException("Not implemented yet");
     }
 
